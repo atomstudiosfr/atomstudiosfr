@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="54px"
+   height="54px"
+   viewBox="0 0 197.27455 197.27455"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="atom-short-logo.svg"
+   inkscape:export-filename="D:\Larry\Documents\GoogleDrive\ATOM\Resources\atom-logo-short.png"
+   inkscape:export-xdpi="95.92215"
+   inkscape:export-ydpi="95.92215">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="251.37371"
+     inkscape:cy="141.14988"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="-0.3"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(98.63727,-19.142778)">
+    <g
+       transform="translate(112.91336,-4.3927176)"
+       id="layer1-9"
+       inkscape:label="Layer 1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path829"
+         d="m -211.55063,213.61198 c 0,-1.86313 64.16414,-125.45002 65.15526,-125.4959 0.51415,-0.0205 6.44678,11.01505 13.18278,24.5308 l 12.24718,24.57409 -19.51429,38.72501 -19.51429,38.72495 -25.77832,0.0137 c -14.17807,0.007 -25.77832,-0.47518 -25.77832,-1.07522 z m 109.02792,-70.30913 -35.68657,-71.40041 9.73616,-19.73267 c 16.61231,-33.66871 8.84889,-41.35938 62.051787,61.47056 25.412733,49.1174 47.541503,91.95006 49.175113,95.18364 l 2.97014,5.87923 h -26.28003 -26.280103 z"
+         style="fill:#000000;stroke-width:1.80900586" />
+    </g>
+  </g>
+</svg>

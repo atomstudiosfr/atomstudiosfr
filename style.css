@@ -222,8 +222,8 @@ LANGUAGE SWITCHER
 .select__wrapper > .language__item.active {
     color: white;
     cursor: pointer;
-    border-bottom: 4px solid #ff9999;
-    background-color: #cc0000;
+    border-bottom: 4px solid #3A7AFA;
+    background-color: #1749AD;
     border-radius: 12px;
 }
 
