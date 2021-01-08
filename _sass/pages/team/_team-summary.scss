@@ -26,10 +26,25 @@
       font-size: 12px;
       font-weight: 500;
     }
+    a {
+      text-decoration: none;
+      color: $black;
+    }
+    img {
+      width: 20px;
+      fill: $black;
+    }
   }
   .team-content {
     margin-top: 20px;
     flex: 1 0 100%;
+  }
+  .team-technos {
+    margin-top: 20px;
+    flex: 1 0 100%;
+    img {
+      width: 30px;
+    }
   }
 }
 

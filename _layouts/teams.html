@@ -26,16 +26,30 @@ bodyClass: page-team-list
             <div class="team team-summary team-summary-large">
                 {% if team.image %}
                 <div class="team-image">
+                    {% if team.link %}
+                    <a target="_blank" href="{{ team.link }}">
+                    {% endif %}
                     <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    {% if team.link %}
+                    </a>
+                    {% endif %}
                 </div>
                 {% endif %}
                 <div class="team-meta">
                     <h2 class="team-name">{{ team.title }}</h2>
-                    <p class="team-description">{{ team.jobtitle }}</p>
+                    <p class="team-description">{{ team.jobtitle }} {% if team.location %}@{{ team.location }}{% endif %}</p>
                     {% if team.linkedinurl %}
-                    <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
+                    <a target="_blank" href="{{ team.linkedinurl }}"><img target="_blank" alt="LinkedIn" src="/images/social/linkedin.svg" />LinkedIn</a>
                     {% endif %}
                 </div>
+                {% if team.technos %}
+                <div class="team-technos">
+                    {% assign technos = team.technos | downcase | replace: " ", "" | split: "," %}
+                    {% for techno in technos %}
+                    <img alt="{{ techno }}" src="/images/technos/{{techno}}-original.svg" />
+                    {% endfor %}
+                </div>
+                {% endif %}
                 <div class="team-content">{{ team.content | truncate: 120 }}</div>
             </div>
         </div>
