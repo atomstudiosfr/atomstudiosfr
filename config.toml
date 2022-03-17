@@ -1,0 +1,38 @@
+theme = "showfolio"
+languageCode = "en-us"
+baseurl = "https://atomstudios.fr"
+title = "ATOM Studios"
+enableEmoji = true
+
+[params]
+  name = "ATOM Studios"
+  description = "Website development"
+  author = "Larry Mota--Lavigne"
+  authorEmail = "info@atomstudios.fr"
+  authorImage = "/logo.svg"
+  autoDarkMode = true
+  copyright = "Copyright © 2022 - ATOM Studios · All rights reserved"
+  favicon = "/logo.svg"
+
+[params.homepage]
+  title = "ATOM Studios"
+  tagline = "Software development"
+  description = "Develop functional user interfaces and provide a valuable experience to customers."
+  contact = "mailto:info@atomstudios.fr"
+
+[params.homepage.codepen]
+  username = "apvarun"
+  pens = ["MQaRKL", "RxodrP", "BmXGdm", "wdVypQ"]
+
+[params.homepage.social]
+  twitter = "https://twitter.com/LarryMotaL"
+  linkedin = "https://linkedin.com/company/atom-studios-fr"
+  github = "https://github.com/atomstudiosfr"
+
+[build]
+  writeStats = true
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
