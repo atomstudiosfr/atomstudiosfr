@@ -1,6 +1,6 @@
 theme = "showfolio"
 languageCode = "en-us"
-baseurl = " https://atomstudiosfr.github.io/homepage/"
+baseurl = "https://atomstudios.fr"
 title = "ATOM Studios"
 enableEmoji = true
 
