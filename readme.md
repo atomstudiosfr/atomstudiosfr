@@ -2,5 +2,5 @@
 
 # Atom Studios Homepage
 
-This repository generates the https://atomstudios.fr website.
+This repository generates the https://atomstudios.fr and https://atomservices.fr website.
 
