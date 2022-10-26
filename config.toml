@@ -12,7 +12,7 @@ enableEmoji = true
   authorImage = "/logo.svg"
   autoDarkMode = true
   copyright = "Copyright © 2022 - ATOM Studios · All rights reserved"
-  favicon = "/logo.svg"
+  favicon = "/favicon.icon"
 
 [params.homepage]
   title = "ATOM Studios"
