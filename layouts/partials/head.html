@@ -4,6 +4,7 @@
   <title>
     {{ block "title" . }} {{ .Site.Title -}} {{ end }}
   </title>
+  <script defer data-domain="atomstudios.fr" src="https://plausible.atomstudios.fr/js/plausible.js"></script>
   {{- if .Description }}
   <meta name="description" content="{{ .Description }}" />
   {{ end -}}
@@ -36,5 +37,4 @@
     }
   </script>
   {{ end }}
-    <script defer data-domain="atomstudios.fr" src="https://plausible.atomstudios.fr/js/plausible.js"></script>
 </head>
