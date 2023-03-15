@@ -32,6 +32,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "https://atomstudios.fr",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -41,7 +42,7 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
+              "extractCss": false,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
