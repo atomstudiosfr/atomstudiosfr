@@ -1,26 +1,40 @@
 {
-    "name": "atomstudios",
-    "version": "1.0.0",
-    "description": "atomstudios.fr website",
-    "main": "index.js",
-    "scripts": {
-      "start": "hugo server --disableFastRender",
-      "start-examplesite": "hugo server -s exampleSite --themesDir=../.. --disableFastRender",
-      "build": "NODE_ENV=production hugo --gc"
-    },
-    "devDependencies": {
-      "@fullhuman/postcss-purgecss": "^4.0.3",
-      "@tailwindcss/typography": "^0.4.0",
-      "autoprefixer": "^10.2.5",
-      "postcss": "^8.2.13",
-      "postcss-cli": "^8.3.1",
-      "postcss-import": "^14.0.1",
-      "tailwindcss": "^2.1.1"
-    },
-    "browserslist": [
-      "last 1 version",
-      "> 1%",
-      "maintained node versions",
-      "not dead"
-    ]
+  "name": "app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "build:prod": "npm run build --base-href https://atomstudios.fr && gulp compress",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "dependencies": {
+    "@angular/animations": "^15.2.2",
+    "@angular/common": "^15.2.2",
+    "@angular/compiler": "^15.2.2",
+    "@angular/core": "^15.2.2",
+    "@angular/forms": "^15.2.2",
+    "@angular/platform-browser": "^15.2.2",
+    "@angular/platform-browser-dynamic": "^15.2.2",
+    "@angular/router": "^15.2.2",
+    "@angular/service-worker": "^15.2.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "rxjs": "^7.5.7",
+    "tslib": "^2.4.1",
+    "zone.js": "^0.13.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.2.2",
+    "@angular/cli": "^15.2.2",
+    "@angular/compiler-cli": "^15.2.2",
+    "autoprefixer": "^10.4.14",
+    "gulp": "^4.0.2",
+    "gulp-gzip": "^1.4.2",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "typescript": "~4.9.5"
   }
+}
